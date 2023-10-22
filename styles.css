@@ -1,0 +1,78 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Fraunces', serif;
+}
+
+main {
+    width: 600px;
+    margin: 100px auto;
+}
+
+img {
+    border-radius: 10px 0 0 10px;
+    width: 300px;
+}
+
+.details {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    width: 300px;
+}
+
+p {
+    text-align: left;
+    padding: 20px 0;
+    font-weight: 0.8;
+    font-size: 0.9;
+}
+
+.details h5 {
+    color: hsl(228, 12%, 48%);
+    padding: 30px 0 0 0;
+    font-size: 0.9rem;
+}
+
+.price {
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    padding: 20px 0 0 0;
+
+}
+
+em {
+    text-decoration: line-through;
+    font-size: 0.7rem;
+    padding: 1%;
+    color: black;
+}
+.fa-solid {
+    padding: 5px;
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+
+@media (max-width: 920px) {
+    img {
+        border-radius: 10px 10px 0 0;
+        height: 300px;
+    }
+    
+    .details {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0 0 10px 10px;
+        margin-left: 12px;
+        height: 420px;
+    }
+    
+}
